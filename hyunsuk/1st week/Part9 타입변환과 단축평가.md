@@ -65,6 +65,16 @@
 
 2. 옵셔널 체이닝 연산자 (?.)
 
-- 좌항의 피연산자가 null 또는 
+- 좌항의 피연산자가 null 또는 undefined인 경우 undefined 반환 그렇지 않은경우 이어서 참조를 한다.
 
-3. null 병합 연산자 
+- 옵셔널 체이닝 연산자 ?.는 객체를 가리키기를 기대하는 변수가 null 또는 undefined가 아닌지 확인하고 프로퍼티를 참조할 때 유용하다
+
+<img width="546" alt="스크린샷 2022-04-18 오전 9 46 47" src="https://user-images.githubusercontent.com/95524491/163738607-e4d5bf8d-8db2-4162-b499-989cc0564eb6.png">
+
+3. null 병합 연산자 (??)
+
+- 좌항의 피연산자가 null 또는 undefined인 경우 우항의 피연산자를 반환하고 그렇지 않은경우 좌항의 피연산자를 반환한다
+
+<img width="549" alt="스크린샷 2022-04-18 오전 9 49 11" src="https://user-images.githubusercontent.com/95524491/163738707-0e77450b-1fe9-4a5a-a156-370bbe62228b.png">
+
+
